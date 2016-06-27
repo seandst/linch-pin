@@ -5,3 +5,5 @@ pyasn1==0.1.9
 pycparser==2.14
 six==1.10.0
 ansible==2.1.0
+jsonschema
+apache-libcloud
