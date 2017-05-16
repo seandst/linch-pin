@@ -155,6 +155,7 @@ class LinchpinAPI(object):
                         self.get_cfg('extensions','inventory' ,'inventory')
                     )
         self.set_evar('inventory_file', inv_file)
+        self.set_evar('inventory_dir', self.get_evar('inventories_folder'))
         self.set_evar('topology_name', topology_name)
 
     def run_playbook(self, pinfile, targets='all', playbook='up'):

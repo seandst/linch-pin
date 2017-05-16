@@ -162,6 +162,7 @@ class AnsibleActionManager(ActionManager):
         ctx_params["resource_file"] = self.target_data.get("resource_file",None)
         ctx_params["layout_file"] = self.target_data.get("layout_file",None)
         ctx_params["inventory_file"] = self.target_data.get("inventory_file",None)
+        ctx_params["inventory_dir"] = self.target_data.get("inventory_dir",None)
         return ctx_params
 
 
